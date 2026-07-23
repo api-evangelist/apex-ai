@@ -1,8 +1,32 @@
 aid: apex-ai
-name: Apex Ai
-description: Apex Ai is a company surfaced as a portfolio company of canaan-partners, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apex-ai.png
+name: Apex.AI
+description: >-
+  Apex.AI is an embedded and autonomous software company whose tagline is "software
+  that moves," focused on safe, real-time, software-defined systems (SDx) for
+  automotive, robotics, and other safety-critical embedded platforms. Its product
+  line includes Apex.Grace (deterministic embedded execution framework, an
+  automotive-grade evolution of ROS 2), Apex.Ida (high-speed fault-tolerant
+  middleware for sensor, compute, and cloud connectivity), Apex.OS for V&V (data
+  recording and replay for validating autonomous systems), and Apex.Alan (automated
+  tooling and CI/CD workflows for safe software development at scale). Apex.AI also
+  provides technical assessment, architecture, embedded and cloud software
+  development, CI/CD pipeline, and ROS 1 to ROS 2 migration services. The company is
+  a maintainer of substantial ROS 2 and embedded middleware open source. It is
+  backed by Canaan Partners and Lightspeed Venture Partners. This profile was
+  enriched by the API Evangelist pipeline; Apex.AI publishes no public developer REST
+  API at this time.
 url: https://raw.githubusercontent.com/api-evangelist/apex-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,9 +40,33 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Embedded
+- Autonomous Vehicles
+- Robotics
+- Middleware
+- Software Defined Vehicle
+- ROS 2
+- Automotive
+- Safety Critical
 apis: []
+common:
+- type: DomainSecurity
+  url: security/apex-ai-domain-security.yml
+- type: Website
+  url: https://www.apex.ai/
+- type: GitHubOrganization
+  url: https://github.com/ApexAI
+- type: Blog
+  url: https://www.apex.ai/blog
+- type: PrivacyPolicy
+  url: https://www.apex.ai/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
