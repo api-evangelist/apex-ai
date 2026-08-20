@@ -47,6 +47,16 @@ tags:
 - Software Defined Vehicle
 - ROS 2
 - Automotive
+- Safety-Critical
+tags_raw:
+- Company
+- Embedded
+- Autonomous Vehicles
+- Robotics
+- Middleware
+- Software Defined Vehicle
+- ROS 2
+- Automotive
 - Safety Critical
 apis: []
 common:
