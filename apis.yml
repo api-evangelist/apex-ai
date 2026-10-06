@@ -48,7 +48,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 tags:
 - Company
 - Embedded
@@ -71,6 +71,8 @@ tags_raw:
 - Safety Critical
 apis: []
 common:
+- url: https://www.apex.ai/blog-feed.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/apex-ai-domain-security.yml
 - type: Website
